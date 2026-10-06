@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dharan Koncha · Software Engineer</title>
+<meta name="description" content="Dharan Tej Bhushan Koncha, Software Engineer in Dallas–Fort Worth. Full stack, serverless AWS, data engineering and ML. Builds HedgeWithAI, an AI trading-intelligence platform.">
+<meta name="theme-color" content="#f3efe6">
+<meta property="og:title" content="Dharan Koncha · Software Engineer">
+<meta property="og:description" content="Full stack, serverless AWS, data engineering and ML. Builds HedgeWithAI, an AI trading-intelligence platform.">
+<meta property="og:type" content="profile">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Dharan Tej Bhushan Koncha","jobTitle":"Software Engineer","address":{"@type":"PostalAddress","addressLocality":"Dallas–Fort Worth","addressRegion":"TX","addressCountry":"US"},"alumniOf":["Michigan Technological University","Vardhaman College of Engineering"],"email":"mailto:konchadharantejbhushan@gmail.com","sameAs":["https://www.linkedin.com/in/dharantejk","https://github.com/DharanTejBhushan9"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+
+<header class="bar">
+  <a class="logo" href="#top" aria-label="Dharan Koncha, back to top">
+    <span class="logo-mark" aria-hidden="true">DK</span>
+    <span class="logo-name">Dharan Koncha</span>
+  </a>
+  <nav aria-label="Primary">
+    <ul>
+      <li><a href="#pipeline">Pipeline</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#work">Work</a></li>
+      <li class="hide-sm"><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <a class="btn btn-ink btn-sm" href="Dharan-Koncha-Resume.pdf">Resume</a>
+</header>
+
+<main id="main">
+
+  <!-- ============================== HERO ============================== -->
+  <section class="hero" id="top" aria-labelledby="hero-name">
+    <canvas class="candles" aria-hidden="true"></canvas>
+    <div class="chart-tip mono" aria-hidden="true" hidden></div>
+    <div class="hero-inner">
+      <p class="status"><span class="dot" aria-hidden="true"></span> Open to software, data and ML engineering roles</p>
+      <p class="mono kicker" aria-hidden="true">&gt; software_engineer --full-stack --serverless-aws --data --ml</p>
+      <h1 class="display" id="hero-name"><span class="sr-only">Dharan Koncha</span><span class="line l1" aria-hidden="true" data-scramble>Dharan</span><span class="line l2" aria-hidden="true" data-scramble>Koncha</span></h1>
+      <div class="hero-grid">
+        <div>
+          <p class="lede">I build and run <strong>HedgeWithAI</strong>, an AI trading-intelligence platform that turns live market data into alerts, predictions and portfolio insights on web, iOS and Android. Front ends to data pipelines to the LLM features on top.</p>
+          <div class="actions">
+            <a class="btn btn-accent" href="#work">See the work</a>
+            <a class="btn" href="mailto:konchadharantejbhushan@gmail.com">Email me</a>
+            <a class="btn" href="https://www.linkedin.com/in/dharantejk" rel="me">LinkedIn</a>
+            <a class="btn" href="https://github.com/DharanTejBhushan9" rel="me">GitHub</a>
+          </div>
+        </div>
+        <figure class="term" aria-label="Interactive terminal">
+          <div class="term-bar" aria-hidden="true"><i></i><i></i><i></i><span>dharan@portfolio: ~</span></div>
+          <div class="term-screen" data-term-screen>
+            <pre class="term-body mono" aria-hidden="true"><code data-term>$ run pipeline --interval 1m
+<b class="ok">✓</b> fetch     candlestick data (OHLCV)
+<b class="ok">✓</b> validate  missing · incorrect candles
+<b class="ok">✓</b> features  indicators from candle data
+<b class="ok">✓</b> models    SageMaker · backtested strategies
+<b class="go">→</b> deliver   alerts · WebSockets · mobile
+done.</code></pre>
+            <div class="term-log mono" role="log" aria-live="polite" data-term-log></div>
+            <form class="term-input mono" data-term-form hidden>
+              <label for="term-cmd"><span class="prompt" aria-hidden="true">$</span><span class="sr-only">Terminal command</span></label>
+              <input id="term-cmd" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="go" placeholder="type help" aria-describedby="term-hint">
+            </form>
+          </div>
+          <p class="term-hint mono" id="term-hint" data-term-hint hidden>try <kbd>help</kbd> <kbd>skills</kbd> <kbd>projects</kbd> <kbd>hire</kbd> · press <kbd>/</kbd> to type</p>
+        </figure>
+      </div>
+    </div>
+    <p class="chart-hint mono" aria-hidden="true">hover the chart · click to pump it</p>
+    <a class="scroll-hint mono" href="#about" aria-label="Scroll to About">scroll ↓</a>
+  </section>
+
+  <!-- ============================== TICKER ============================== -->
+  <div class="ticker" aria-label="Core skills">
+    <ul class="ticker-track">
+      <li>Python <b>▲</b></li><li>TypeScript <b>▲</b></li><li>React <b>▲</b></li><li>Angular <b>▲</b></li>
+      <li>Node.js <b>▲</b></li><li>AWS Lambda <b>▲</b></li><li>DynamoDB <b>▲</b></li><li>EventBridge <b>▲</b></li>
+      <li>SageMaker <b>▲</b></li><li>WebSockets <b>▲</b></li><li>OpenAI API <b>▲</b></li><li>RAG <b>▲</b></li>
+      <li>ETL <b>▲</b></li><li>Backtesting <b>▲</b></li><li>Docker <b>▲</b></li><li>GitHub Actions <b>▲</b></li>
+      <li>PostgreSQL <b>▲</b></li><li>Django <b>▲</b></li>
+    </ul>
+  </div>
+
+  <!-- ============================== ABOUT ============================== -->
+  <section class="section" id="about" aria-labelledby="about-h">
+    <div class="wrap two">
+      <div>
+        <p class="eyebrow mono">01 / about</p>
+        <h2 class="h2" id="about-h" data-scramble>Hello, I'm Dharan.</h2>
+      </div>
+      <div class="reveal">
+        <p class="big">I'm a Software Engineer at Nubes Opus, where a small team builds HedgeWithAI. Because the team is small, I own features end to end, from the data that comes in to the screen a trader looks at.</p>
+        <p>I've also taken on the platform's data engineering and quantitative research: the pipelines that bring market data in, the checks that keep it honest, and the backtests a strategy has to survive before it becomes a signal. I hold an MS in Computer Science from Michigan Technological University, and I learn new tools by building with them.</p>
+        <dl class="facts">
+          <div><dt>Based in</dt><dd>Dallas–Fort Worth, Texas</dd></div>
+          <div><dt>Education</dt><dd>MS Computer Science, Michigan Tech · GPA 3.85</dd></div>
+          <div><dt>Building</dt><dd>HedgeWithAI at Nubes Opus</dd></div>
+          <div><dt>Published</dt><dd>IJARSET, 2023</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== PIPELINE ============================== -->
+  <section class="section dark" id="pipeline" aria-labelledby="pipe-h">
+    <div class="wrap">
+      <p class="eyebrow mono">02 / how it works</p>
+      <h2 class="h2" id="pipe-h" data-scramble>From a market tick to a trader's phone.</h2>
+      <p class="sub reveal">The HedgeWithAI pipeline I work across, stage by stage. Pick a stage.</p>
+
+      <div class="pipe reveal">
+        <div class="pipe-rail" aria-hidden="true"><span class="packet"></span><span class="packet p2"></span><span class="packet p3"></span></div>
+        <div class="pipe-stages" role="tablist" aria-label="Pipeline stages">
+          <button role="tab" id="t-ingest" aria-controls="p-ingest" aria-selected="true"><span class="n mono">01</span>Ingest</button>
+          <button role="tab" id="t-validate" aria-controls="p-validate" aria-selected="false" tabindex="-1"><span class="n mono">02</span>Validate</button>
+          <button role="tab" id="t-research" aria-controls="p-research" aria-selected="false" tabindex="-1"><span class="n mono">03</span>Research</button>
+          <button role="tab" id="t-models" aria-controls="p-models" aria-selected="false" tabindex="-1"><span class="n mono">04</span>Models</button>
+          <button role="tab" id="t-deliver" aria-controls="p-deliver" aria-selected="false" tabindex="-1"><span class="n mono">05</span>Deliver</button>
+          <button role="tab" id="t-operate" aria-controls="p-operate" aria-selected="false" tabindex="-1"><span class="n mono">06</span>Operate</button>
+        </div>
+
+        <div class="pipe-panels">
+          <button class="tour-btn mono" type="button" data-tour hidden>pause tour</button>
+          <article role="tabpanel" id="p-ingest" aria-labelledby="t-ingest" tabindex="0" data-label="Pipeline · Ingest" data-skills="eventbridge lambda s3 dynamodb python etl time-series">
+            <h3>Ingest</h3>
+            <p>An EventBridge-scheduled Lambda pipeline fetches candlestick (OHLCV) data at second, minute and daily intervals, into a historical archive on S3 and DynamoDB.</p>
+            <ul class="tags"><li>EventBridge</li><li>AWS Lambda</li><li>S3</li><li>DynamoDB</li><li>Python</li></ul>
+          </article>
+          <article role="tabpanel" id="p-validate" aria-labelledby="t-validate" tabindex="0" hidden data-label="Pipeline · Validate" data-skills="data-validation etl ai-agents python time-series">
+            <h3>Validate</h3>
+            <p>Market data arrives with gaps and bad values, so nothing runs on it until it's checked. Purpose-built AI agents verify every batch for missing and incorrect candles first.</p>
+            <ul class="tags"><li>Data validation</li><li>ETL</li><li>AI agents</li></ul>
+          </article>
+          <article role="tabpanel" id="p-research" aria-labelledby="t-research" tabindex="0" hidden data-label="Pipeline · Research" data-skills="backtesting candlestick-patterns openai rag numpy-pandas python time-series">
+            <h3>Research</h3>
+            <p>New strategies come from the archive: candlestick-pattern and quarterly market-trend analysis, plus LLM-assisted research on the OpenAI API with retrieval-augmented generation. Every candidate is backtested, then tested out of sample. A reusable harness runs the whole battery without new code.</p>
+            <ul class="tags"><li>Backtesting</li><li>Out-of-sample tests</li><li>OpenAI API</li><li>RAG</li><li>Pandas</li></ul>
+          </article>
+          <article role="tabpanel" id="p-models" aria-labelledby="t-models" tabindex="0" hidden data-label="Pipeline · Models" data-skills="sagemaker feature-engineering sentiment python openai">
+            <h3>Models</h3>
+            <p>Python modules compute indicators and features from candle data; Amazon SageMaker endpoints and the platform's signal algorithms turn them into trend predictions and entry/exit signals. LLM sentiment analysis adds context.</p>
+            <ul class="tags"><li>SageMaker</li><li>Feature engineering</li><li>Sentiment analysis</li><li>Python</li></ul>
+          </article>
+          <article role="tabpanel" id="p-deliver" aria-labelledby="t-deliver" tabindex="0" hidden data-label="Pipeline · Deliver" data-skills="sqs-ses websockets angular react nodejs typescript javascript rest rxjs">
+            <h3>Deliver</h3>
+            <p>Signals go out as pre-market and entry/exit alerts through SES, with SQS between stages, and stream over WebSockets to Angular and React dashboards and the React-based iOS and Android apps. Charles Schwab integration with OAuth brings in account data and order workflows.</p>
+            <ul class="tags"><li>SES</li><li>SQS</li><li>WebSockets</li><li>Angular</li><li>React</li><li>Node.js</li><li>Schwab API</li></ul>
+          </article>
+          <article role="tabpanel" id="p-operate" aria-labelledby="t-operate" tabindex="0" hidden data-label="Pipeline · Operate" data-skills="github-actions codepipeline sam docker cloudwatch kinesis">
+            <h3>Operate</h3>
+            <p>GitHub Actions, AWS CodePipeline, AWS SAM and Docker take every change through the test suite and the test and main environments before production. CloudWatch alarms with Kinesis-based log filtering and SES error alerts catch problems before traders do.</p>
+            <ul class="tags"><li>GitHub Actions</li><li>CodePipeline</li><li>AWS SAM</li><li>Docker</li><li>CloudWatch</li><li>Kinesis</li></ul>
+          </article>
+          <div class="pipe-timer" aria-hidden="true"><span></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== EXPERIENCE ============================== -->
+  <section class="section" id="experience" aria-labelledby="exp-h">
+    <div class="wrap">
+      <p class="eyebrow mono">03 / experience</p>
+      <h2 class="h2" id="exp-h" data-scramble>Where I've worked.</h2>
+
+      <ol class="timeline">
+        <li class="reveal" id="role-nubes" data-label="Software Engineer · Nubes Opus" data-skills="python typescript javascript html-css react angular nodejs rxjs rest websockets lambda dynamodb s3 eventbridge sqs-ses kinesis cloudwatch sagemaker sam codepipeline github-actions docker etl time-series data-validation backtesting candlestick-patterns feature-engineering numpy-pandas openai rag sentiment ai-agents">
+          <div class="when mono">Jun 2025 → now</div>
+          <div class="what">
+            <h3>Software Engineer <span>Nubes Opus (AL Cloud Services) · Prosper, TX</span></h3>
+            <p>Software engineer on HedgeWithAI, owning features end to end, plus the platform's data engineering and quantitative research.</p>
+            <details open>
+              <summary>What I do</summary>
+              <div class="grid-groups">
+                <div><h4>Full stack and real time</h4><ul>
+                  <li>Angular, React and TypeScript dashboards with RxJS over WebSocket streams of signals, trading activity and system health.</li>
+                  <li>WebSocket services that stream live market data and keep client state in sync with server-side jobs.</li>
+                  <li>Node.js and Python 3.12 services exposing secure REST APIs for accounts, portfolios and signals.</li>
+                  <li>React-based iOS and Android apps that deliver alerts to traders' phones.</li>
+                </ul></div>
+                <div><h4>Serverless and pipelines</h4><ul>
+                  <li>Serverless microservices on Lambda, DynamoDB, S3, EventBridge and CloudWatch for high-volume candle and account data.</li>
+                  <li>The scheduled pipeline that fetches candle data, runs the signal algorithms and ML models, and sends alerts.</li>
+                  <li>Charles Schwab API integration, including OAuth token issuance and refresh.</li>
+                </ul></div>
+                <div><h4>Data and quant research</h4><ul>
+                  <li>ETL for second-, minute- and daily-interval data with validation before use.</li>
+                  <li>Strategy discovery with candlestick-pattern and quarterly trend analysis, then backtests with out-of-sample tests.</li>
+                  <li>A reusable research harness of AI agents that fetch, validate and test without new code.</li>
+                </ul></div>
+                <div><h4>AI and delivery</h4><ul>
+                  <li>LLM features on the OpenAI API with RAG for strategy research and sentiment analysis; SageMaker endpoints for trend prediction.</li>
+                  <li>GitHub Actions, CodePipeline, SAM and Docker across test, main and production.</li>
+                  <li>AI coding agents (Kiro, Claude) daily, with everything reviewed and tested before it ships.</li>
+                </ul></div>
+              </div>
+            </details>
+          </div>
+        </li>
+        <li class="reveal" id="role-salesforce">
+          <div class="when mono">Jul → Sep 2022</div>
+          <div class="what">
+            <h3>Administrator (Internship) <span>Salesforce · Hyderabad, India</span></h3>
+            <ul class="plain">
+              <li>Configured role hierarchies, sharing rules and field-level security; automated onboarding workflows.</li>
+              <li>Fixed email-campaign delivery failures and workflow automation errors.</li>
+              <li>Resolved data-integrity problems with Data Loader and SOQL.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="reveal" id="role-reliable" data-label="IT & Software Intern · Reliable Agencies" data-skills="python django">
+          <div class="when mono">Aug 2020 → May 2021</div>
+          <div class="what">
+            <h3>IT &amp; Software Intern, part-time <span>Reliable Agencies · Hyderabad, India</span></h3>
+            <ul class="plain">
+              <li>Built Django/Python web applications to manage orders, new contracts and cross-department workflows, moving a manufacturer's paper processes online.</li>
+              <li>Automated management reporting with Excel macros, VBA and pivot tables.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============================== WORK ============================== -->
+  <section class="section tint" id="work" aria-labelledby="work-h">
+    <div class="wrap">
+      <p class="eyebrow mono">04 / selected work</p>
+      <h2 class="h2" id="work-h" data-scramble>Things I've built.</h2>
+      <div class="cards">
+        <div class="reveal"><article class="card" id="work-hedgewithai" data-label="HedgeWithAI" data-skills="python typescript javascript html-css react angular nodejs rxjs rest websockets lambda dynamodb s3 eventbridge sqs-ses kinesis cloudwatch sagemaker sam codepipeline github-actions docker openai rag sentiment feature-engineering">
+          <p class="kind mono">production platform · nubes opus</p>
+          <h3>HedgeWithAI</h3>
+          <p>AI trading-intelligence platform for retail traders: pre-market alerts, entry/exit signals with reasoning, predictive analytics and portfolio insights on web, iOS and Android.</p>
+          <ul class="tags"><li>AWS Lambda</li><li>DynamoDB</li><li>SageMaker</li><li>WebSockets</li><li>React</li><li>Angular</li><li>Node.js</li><li>Python</li></ul>
+          <a class="card-link" href="https://hedgewithai.com">hedgewithai.com ↗</a>
+        </article></div>
+        <div class="reveal"><article class="card" id="work-harness" data-label="Market-data research harness" data-skills="python etl time-series data-validation backtesting candlestick-patterns numpy-pandas ai-agents lambda s3 dynamodb">
+          <p class="kind mono">data engineering · quant research</p>
+          <h3>Market-data research harness</h3>
+          <p>Turns a strategy idea into a tested result without new code: AI agents fetch the data, check it for missing and incorrect candles, and run the full backtest battery, including out-of-sample tests.</p>
+          <ul class="tags"><li>Python</li><li>ETL</li><li>Time series</li><li>Backtesting</li><li>AI agents</li></ul>
+        </article></div>
+        <div class="reveal"><article class="card" id="work-traffic" data-label="Smart Traffic Control" data-skills="python opencv tensorflow yolo numpy-pandas">
+          <p class="kind mono">computer vision · 2023</p>
+          <h3>Smart Traffic Control</h3>
+          <p>Adaptive traffic-signal controller: an OpenCV pipeline counts vehicles, a TensorFlow/Keras CNN classifies congestion at about 85% detection accuracy on the project's test images, and YOLO speeds up detection.</p>
+          <ul class="tags"><li>Python</li><li>OpenCV</li><li>TensorFlow</li><li>Keras</li><li>YOLO</li></ul>
+        </article></div>
+        <div class="reveal"><article class="card" id="work-techstatview" data-label="TechStatView" data-skills="python django">
+          <p class="kind mono">published · ijarset 2023</p>
+          <h3>TechStatView</h3>
+          <p>Django/Python college intranet with real-time attendance tracking, centralized grades and leave records, and role-based access control for students and staff.</p>
+          <ul class="tags"><li>Python</li><li>Django</li><li>RBAC</li></ul>
+        </article></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== SKILLS ============================== -->
+  <section class="section" id="skills" aria-labelledby="skills-h">
+    <div class="wrap">
+      <p class="eyebrow mono">05 / toolkit</p>
+      <h2 class="h2" id="skills-h" data-scramble>What I work with.</h2>
+      <div class="skills reveal" data-skill-explorer>
+        <div><h3 class="mono">languages</h3><ul class="skill-list">
+          <li data-skill="python">Python</li><li data-skill="typescript">TypeScript</li><li data-skill="javascript">JavaScript</li><li data-skill="sql">SQL</li><li data-skill="java">Java</li><li data-skill="html-css">HTML/CSS</li><li data-skill="c">C</li><li data-skill="cpp">C++</li>
+        </ul></div>
+        <div><h3 class="mono">frameworks</h3><ul class="skill-list">
+          <li data-skill="react">React</li><li data-skill="angular">Angular</li><li data-skill="nodejs">Node.js</li><li data-skill="express">Express</li><li data-skill="django">Django</li><li data-skill="fastapi">FastAPI</li><li data-skill="rxjs">RxJS</li><li data-skill="nextjs">Next.js</li><li data-skill="rest">REST</li><li data-skill="websockets">WebSockets</li>
+        </ul></div>
+        <div><h3 class="mono">cloud &amp; devops</h3><ul class="skill-list">
+          <li data-skill="lambda">Lambda</li><li data-skill="dynamodb">DynamoDB</li><li data-skill="s3">S3</li><li data-skill="eventbridge">EventBridge</li><li data-skill="sqs-ses">SQS/SES</li><li data-skill="kinesis">Kinesis</li><li data-skill="cloudwatch">CloudWatch</li><li data-skill="sagemaker">SageMaker</li><li data-skill="sam">SAM</li><li data-skill="codepipeline">CodePipeline</li><li data-skill="github-actions">GitHub Actions</li><li data-skill="docker">Docker</li><li data-skill="linux">Linux</li>
+        </ul></div>
+        <div><h3 class="mono">data &amp; research</h3><ul class="skill-list">
+          <li data-skill="etl">ETL</li><li data-skill="time-series">time-series (OHLCV)</li><li data-skill="data-validation">data validation</li><li data-skill="backtesting">backtesting</li><li data-skill="candlestick-patterns">candlestick-pattern analysis</li><li data-skill="feature-engineering">feature engineering</li><li data-skill="numpy-pandas">NumPy/Pandas</li>
+        </ul></div>
+        <div><h3 class="mono">ml &amp; ai</h3><ul class="skill-list">
+          <li data-skill="openai">OpenAI API</li><li data-skill="rag">RAG</li><li data-skill="sentiment">sentiment analysis</li><li data-skill="tensorflow">TensorFlow/Keras</li><li data-skill="sklearn">scikit-learn</li><li data-skill="opencv">OpenCV</li><li data-skill="yolo">YOLO</li><li data-skill="ai-agents">AI agents</li>
+        </ul></div>
+        <div><h3 class="mono">databases</h3><ul class="skill-list">
+          <li data-skill="dynamodb">DynamoDB</li><li data-skill="postgresql">PostgreSQL</li><li data-skill="mongodb">MongoDB</li><li data-skill="redis">Redis</li><li data-skill="mysql">MySQL</li>
+        </ul></div>
+      </div>
+      <div class="skill-result" aria-live="polite" data-skill-result></div>
+
+      <div class="edu reveal">
+        <div><p class="mono kind">ms · 2023 → 2025</p><h3>Michigan Technological University</h3><p>Master of Science in Computer Science · GPA 3.85</p></div>
+        <div><p class="mono kind">b.tech · 2019 → 2023</p><h3>Vardhaman College of Engineering</h3><p>Computer Science and Engineering</p></div>
+        <div><p class="mono kind">publication · 2023</p><h3>IJARSET</h3><p>“An INTRANET-Based Web Application for College Management System Using Python with Django Web Framework”</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== CONTACT ============================== -->
+  <section class="section dark contact" id="contact" aria-labelledby="contact-h">
+    <div class="wrap">
+      <p class="eyebrow mono">06 / contact</p>
+      <h2 class="mega" id="contact-h"><span data-scramble>Let's build</span> <span data-scramble>something.</span></h2>
+      <p class="sub">Looking for software engineering, data engineering and ML engineering roles. Email is the fastest way to reach me.</p>
+      <div class="actions">
+        <a class="btn btn-accent" href="mailto:konchadharantejbhushan@gmail.com">konchadharantejbhushan@gmail.com</a>
+        <button class="btn btn-ghost" type="button" data-copy="konchadharantejbhushan@gmail.com">Copy email</button>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/dharantejk" rel="me">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/DharanTejBhushan9" rel="me">GitHub</a>
+        <a class="btn btn-ghost" href="Dharan-Koncha-Resume.pdf">Resume (PDF)</a>
+      </div>
+      <p class="local mono" data-local-line hidden>It's <span data-localtime></span> here in Dallas–Fort Worth.</p>
+      <p class="toast mono" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>© 2026 Dharan Tej Bhushan Koncha · Dallas–Fort Worth <span class="mono" data-localtime-foot></span></span>
+  <span class="mono">hand-built · html · css · vanilla js · no trackers</span>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
